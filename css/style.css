@@ -1,0 +1,538 @@
+
+* {
+  font-family: Geologica, sans-serif;
+}
+
+h5 {
+font-weight: 200;
+}
+
+.navbarcontainer a{
+  font-size: 20px;
+}
+
+.navbar-logo-left-6 {
+    object-fit: contain;
+    background-color: rgba(255, 255, 255, 0);
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    max-width: none;
+    padding-top: 22px;
+    padding-left: 24px;
+    padding-right: 24px;
+    text-decoration: none;
+    display: flex;
+    overflow: visible;
+  }
+  
+  .navbarcontainer {
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-width: none;
+    margin-top: 20px;
+    margin-left: 37px;
+    margin-right: 37px;
+    text-decoration: none;
+    display: block;
+
+  }
+
+  .navbarcontent {
+    gap: auto;
+  }
+
+
+
+  a { color: inherit;
+    text-decoration: inherit;;
+   } 
+
+  .navbarcontent {
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    object-fit: fill;
+    flex-flow: row;
+    order: 0;
+    justify-content: space-between;
+    align-self: auto;
+    align-items: center;
+    width: auto;
+    max-width: none;
+    text-decoration: none;
+    display: flex;
+  }
+  
+  .navbarleftside {
+    grid-column-gap: 47px;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+
+    text-decoration: none;
+    display: flex;
+  }
+  
+  .navbarbrand {
+    flex: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    display: flex;
+  }
+  
+  .logo {
+    object-fit: contain;
+    align-self: center;
+    max-width: 80%;
+  }
+
+
+  .navbarmenu{
+    grid-column-gap: 32px;
+    flex: 0 auto;
+    justify-content: flex-end;
+    align-items: center;
+    text-decoration: none;
+    display: flex;
+  }
+
+  .navlink {
+    color: black;
+    flex: 0 auto;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: auto;
+    padding: 24px 12px;
+    font-size: 10px;
+    text-decoration: none;
+    display: flex;
+    overflow: visible;
+    transition: all 0.1s;
+  }
+
+
+  #navarrow {
+    font-size: 16px;
+    margin-left: .05vh;
+    transform: rotate(-40deg)
+  }
+
+
+
+  
+
+
+/* Hamburger menu styles */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 24px;
+    width: 25px;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+  }
+  
+  .hamburger span {
+    display: block;
+    height: 2px;
+    width: 100%;
+    background: #333;
+  }
+
+  
+  
+  .projectcontainer {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 50px;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+.projectcontainer img{
+    max-width: 50%;
+    max-height: 400px;
+    
+  }
+
+  @keyframes typewriter {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+  
+  /* Blinking cursor keyframes */
+  @keyframes blinkCaret {
+    from, to { border-color: transparent; }
+    50% { border-color: black; }
+  }
+  
+  /* This class will be added to h1 for typewriter effect */
+  .typed-out{
+    display: inline-block; /* Allows the width to be animated */
+    overflow: hidden; /* Ensures the text is clipped */
+    white-space: nowrap; /* Keeps the text on a single line */
+    border-right: 3px solid black; /* Cursor */
+    animation: typewriter 1s steps(13), blinkCaret .7s step-end 4 forwards; /* Apply animation */
+  }
+
+
+
+  .projectpics {
+    width: 100%;
+    display: flex;
+    gap: 2%;
+    justify-content: center;
+  }
+
+
+  .projectname {
+    font-size: 2.8vh;
+    margin-bottom: 30px;
+font-weight: 700;
+  }
+
+
+  .projectdescription {
+    width:100%;
+    text-align: center;
+font-weight: 100;
+margin-top: 30px;
+  }
+
+
+  .projectspage {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+
+
+ 
+
+
+
+
+* {
+    margin: 0;
+    padding:0;
+}
+
+.introduction {
+    display: flex;
+    padding: 5vw;
+    padding-top: 5vw;
+    
+ 
+    align-items: center; /* Vertically center items */
+  justify-content: center; 
+  word-wrap: normal;
+}
+
+
+
+
+
+.introright {
+  max-width:600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+    align-items: center;
+
+}
+
+.introright h1{
+  margin-bottom: 20px;
+}
+
+.introright h5 {
+  margin-bottom: 30px;
+}
+
+.introright h1 {
+  font-size: 53px;
+}
+
+.introright h5 {
+  font-size: 18px;
+}
+
+.navlink:first-child:hover {
+color: rgb(145, 88, 219);
+}
+
+.navlink:after {
+  content: "";
+  position: absolute;
+  background-color: rgb(145, 88, 219);
+  height: 4px;
+  width: 0;
+  left:0;
+  bottom: -10px;
+  transition: 0.2s;
+}
+
+
+.navlink:nth-of-type(2n):hover {
+  color: rgb(37, 181, 106);
+  }
+
+  .navlink:nth-of-type(2n):after {
+    content: "";
+    position: absolute;
+    background-color: rgb(37, 181, 106);
+    height: 4px;
+    width: 0;
+    left:0;
+    bottom: -10px;
+    transition: 0.2s;
+  }
+
+  .navlink:nth-of-type(3n):hover {
+    color: rgb(32, 136, 255);
+    }
+
+    .navlink:nth-of-type(3n):after {
+      content: "";
+      position: absolute;
+      background-color: rgb(32, 136, 255);
+      height: 4px;
+      width: 0;
+      left:0;
+      bottom: -10px;
+      transition: 0.2s;
+    }
+    
+
+    .navlink {
+      position: relative;
+      padding-bottom:0;
+      padding:0;
+      margin: 24px 12px;
+      transition: 0.2s;
+    }
+
+
+
+.navlink:hover:after {
+  width: 100%; /* Underline full width when hovered */
+  left: 0; /* Align left edge of the line with the element */
+}
+
+i {
+  font-size: 30px;
+  transition: 0.2s;
+  color: rgb(103, 103, 103);
+}
+
+.introright i:hover {
+  color: rgb(0, 0, 0);
+  transform: scale(1.2);
+}
+
+
+.iconrow {
+  display: flex;
+  gap: 40px;
+align-items: center;
+
+}
+  
+.introduction img {
+  max-width: 50vw; /* 50% of the viewport width */
+  max-height: 50vh; /* 50% of the viewport height */
+  width: auto;
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 50%; /* Make image round */
+}
+
+.projectcontainer {
+  background-color: white;
+  filter: drop-shadow(1px 2px 5px #d9d9d9);
+margin-bottom: 30px;
+}
+
+.projectpics img {
+  border-radius: 4px;
+}
+
+
+
+.pdf {
+width: 100%;
+height: 100vh;
+}
+
+.pdfcontainer {
+margin: 2vh 10vh;
+}
+
+
+@keyframes fadeInUp {
+  0% {
+    transform: translateY(1%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+.introduction {
+  animation: fadeInUp ease 0.4s;
+  animation-iteration-count: 1;
+}
+
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(1vh);
+  visibility: hidden;
+  transition: opacity 0.3s , transform .2s ease-out;
+  will-change: opacity, visibility;
+}
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}
+
+
+@media (max-width: 768px) { /* Set a breakpoint for mobile devices */
+    .hamburger {
+      display: flex;
+    }
+    
+    .navbarmenu {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      background-color: #fff;
+      top: 10%;
+      left: 0;
+      right: 0;
+      z-index: 1000;
+    }
+  
+    .navbarmenu a {
+      background-color: ;
+    }
+  
+    #navMenu {
+      display: none;
+    }
+    
+    /* When the .active class is added, display the menu */
+    #navMenu.active {
+      display: flex;
+    }
+}  
+
+
+.introduction img {
+  max-width: 100%; /* Ensures img is not larger than its container */
+  border-radius: 50%; /* Makes the image round */
+  max-height: 40vh; /* Max height relative to the viewport */
+  width: auto; /* Scales the width automatically */
+  flex: 0 1 auto; /* Flex-shrink, Flex-grow, Flex-basis */
+}
+
+
+.introright {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; /* Align text to the start */
+  padding: 3vw; /* Use viewport width for padding */
+}
+
+.introright {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; /* Align text to the start */
+  padding: 3vw; /* Use viewport width for padding */
+}
+
+.introright h1, .introright h5 {
+  word-wrap: break-word; /* Ensures text wraps and does not overflow */
+}
+
+.introright h1 {
+  font-size: 5.3vw; /* Use viewport width for responsive font size */
+}
+
+
+
+
+@media (max-width: 768px) {
+
+      .introduction {
+          flex-direction: column;
+        
+      }
+
+      .introduction img, .introright {
+        width: 80%;
+        margin: 0px auto;
+    }
+
+    .introduction img, .introright {
+      width: 80%;
+      margin: 0px auto;
+      margin-top: ;
+      margin-right: ;
+      margin-bottom: ;
+      margin-left: ;
+      padding: 0;
+    }
+    .introright {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 30px;
+    }
+  }
+
+
+  img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.introduction img {
+  max-width: 50vw;
+  max-height: 50vh;
+  width: auto;
+  height: auto;
+  border-radius: 50%;
+
+}
+
+.introduction {
+margin-left: 10%;
+margin-right: 10%;
+gap: 4%;
+}
+
